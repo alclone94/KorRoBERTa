@@ -37,7 +37,7 @@ def _get_parser():
     parser = argparse.ArgumentParser(fromfile_prefix_chars="@")
 
     parser.add_argument("--bert_model", type=str, default='bert/')
-    parser.add_argument("--pretrained_bert_model", type=str, default="output/senti_base_model_100000step")
+    parser.add_argument("--pretrained_bert_model", type=str, default="output/senti_base_model_300000step")
     parser.add_argument("--device_ids", type=str, default="0")
 
     parser.add_argument("--seed", type=int, default=203)
